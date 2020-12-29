@@ -33,7 +33,7 @@ Join the #Computer_Vision_curriculum channel in our Slack channel to find one ht
 - [x] [Luminance (Brightness, contrast, gamma, histogram equalization)](https://github.com/rahulbakshee/cv/blob/master/Learn_Computer_Vision/Part%201:%20Low%20Level%20Vision%20(image%20%3E%20image)/Week%201%20(%20Basic%20Image%20Processing%20Techniques)/01-Luminance%20(Brightness%2C%20contrast%2C%20gamma%2C%20histogram%20equalization).ipynb)
 - [x] [Linear Filtering (enhance image - blur & sharpen, edge detect, image countours, convolution)](https://github.com/rahulbakshee/cv/blob/master/Learn_Computer_Vision/Part%201:%20Low%20Level%20Vision%20(image%20%3E%20image)/Week%201%20(%20Basic%20Image%20Processing%20Techniques)/02-Linear%20Filtering%20(enhance%20image%20-%20blur%20%26%20sharpen%2C%20edge%20detect%2C%20image%20contours%2C%20convolution).ipynb)
 - [x] [Non Linear Filtering (Median, Bilateral Filter, morphology)](https://github.com/rahulbakshee/cv/blob/master/Learn_Computer_Vision/Part%201:%20Low%20Level%20Vision%20(image%20%3E%20image)/Week%201%20(%20Basic%20Image%20Processing%20Techniques)/03-%20Non%20Linear%20Filtering%20(Median%2C%20Bilateral%20Filter%2C%20morphology%20).ipynb)
-- [ ] Color processing (B&W, Saturation, White Balance)
+- [x] [Color processing (B&W, Saturation, White Balance)](https://github.com/rahulbakshee/cv/blob/master/Learn_Computer_Vision/Part%201:%20Low%20Level%20Vision%20(image%20%3E%20image)/Week%201%20(%20Basic%20Image%20Processing%20Techniques)/04-%20Color%20processing%20(B%26W%2C%20Saturation%2C%20White%20Balance).ipynb)
 - [ ] Dithering (Quantization, Ordered Dither, Floyd-Steinberg)
 - [ ] Blending (Image pyramids)
 - [ ] Texture Analysis

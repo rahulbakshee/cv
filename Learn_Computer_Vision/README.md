@@ -37,7 +37,7 @@ Join the #Computer_Vision_curriculum channel in our Slack channel to find one ht
 - [x] [Dithering (Quantization, Ordered Dither, Floyd-Steinberg)](https://github.com/rahulbakshee/cv/blob/master/Learn_Computer_Vision/Part%201:%20Low%20Level%20Vision%20(image%20%3E%20image)/Week%201%20(%20Basic%20Image%20Processing%20Techniques)/05-%20Dithering%20(Quantization%2C%20Ordered%20Dither%2C%20Floyd-Steinberg).ipynb)
 - [X] [Blending (Image pyramids)](https://github.com/rahulbakshee/cv/blob/master/Learn_Computer_Vision/Part%201:%20Low%20Level%20Vision%20(image%20%3E%20image)/Week%201%20(%20Basic%20Image%20Processing%20Techniques)/06-%20Blending%20(Image%20pyramids).ipynb)
 - [ ] Texture Analysis
-- [ ] Template Matching (find object in an image)
+- [x] [Template Matching (find object in an image)](https://github.com/rahulbakshee/cv/blob/master/Learn_Computer_Vision/Part%201:%20Low%20Level%20Vision%20(image%20%3E%20image)/Week%201%20(%20Basic%20Image%20Processing%20Techniques)/08-%20Template%20Matching%20(find%20object%20in%20an%20image).ipynb)
 
 #### Video Lectures
 - [ ] https://www.youtube.com/watch?v=-nt80JUNwlw&list=PLjMXczUzEYcHvw5YYSU92WrY8IwhTuq7p&index=2 videos 1-5 

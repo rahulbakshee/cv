@@ -34,7 +34,7 @@ In this course, you will:
 - Explore and implement multiple GAN architectures
 - Build conditional GANs capable of generating examples from determined categories
 
-> [my notes]
+> [my notes]()
 
 
 ### 2 Build Better Generative Adversarial Networks (GANs)
@@ -46,7 +46,7 @@ In this course, you will:
 - Identify sources of bias and the ways to detect it in GANs
 - Learn and implement the techniques associated with the state-of-the-art StyleGANs
 
-> [my notes]
+> [my notes]()
 
 ### 3 Apply Generative Adversarial Networks (GANs)
 
@@ -58,4 +58,4 @@ In this course, you will:
 - Compare paired image-to-image translation to unpaired image-to-image translation and identify how their key difference necessitates different GAN architectures
 - Implement CycleGAN, an unpaired image-to-image translation model, to adapt horses to zebras (and vice versa) with two GANs in one
 
-> [my notes]
+> [my notes]()

@@ -5,7 +5,7 @@ Break into the GANs space. Master cutting-edge GANs techniques through three han
 [course link](https://www.coursera.org/specializations/generative-adversarial-networks-gans)
 
 
-## WHAT YOU WILL LEARN
+### WHAT YOU WILL LEARN
 - Understand GAN components, build basic GANs using PyTorch and advanced DCGANs using convolutional layers, control your GAN and build conditional GAN
 
 - Compare generative models, use FID method to assess GAN fidelity and diversity, learn to detect bias in GAN, and implement StyleGAN techniques

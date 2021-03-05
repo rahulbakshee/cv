@@ -23,7 +23,7 @@ This Specialization provides an accessible pathway for all levels of learners lo
 
 ## There are 3 Courses in this Specialization
 
-`I will be adding my notes only (and not the pyTorch code for graded exercises) so as to respect` **``Coursera's Honor Code``**.
+`I will be adding my notes only (and not the pyTorch code for graded exercises) so as to respect **`[Coursera's Honor Code](https://learner.coursera.help/hc/en-us/articles/209818863-Coursera-Honor-Code#:~:text=You%20may%20not%20share%20your,provided%20by%20the%20course%20staff.)`**.
 
 ### 1 Build Basic Generative Adversarial Networks (GANs)
 

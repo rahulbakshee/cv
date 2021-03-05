@@ -23,7 +23,7 @@ This Specialization provides an accessible pathway for all levels of learners lo
 
 ## There are 3 Courses in this Specialization
 
-`I will be adding my notes only (and not the pyTorch code for graded exercises) so as to respect **`[Coursera's Honor Code](https://learner.coursera.help/hc/en-us/articles/209818863-Coursera-Honor-Code#:~:text=You%20may%20not%20share%20your,provided%20by%20the%20course%20staff.)`**.
+`I will be adding my notes only (and not the pyTorch code for graded exercises) so as to respect` [Coursera's Honor Code](https://learner.coursera.help/hc/en-us/articles/209818863-Coursera-Honor-Code#:~:text=You%20may%20not%20share%20your,provided%20by%20the%20course%20staff.).
 
 ### 1 Build Basic Generative Adversarial Networks (GANs)
 
@@ -34,7 +34,7 @@ In this course, you will:
 - Explore and implement multiple GAN architectures
 - Build conditional GANs capable of generating examples from determined categories
 
-> [my notes]()
+> [my course 1 notes](https://github.com/rahulbakshee/cv/blob/master/GANs/Specialization/course1-notes.md)
 
 
 ### 2 Build Better Generative Adversarial Networks (GANs)
@@ -46,7 +46,7 @@ In this course, you will:
 - Identify sources of bias and the ways to detect it in GANs
 - Learn and implement the techniques associated with the state-of-the-art StyleGANs
 
-> [my notes]()
+> [my course 2 notes](https://github.com/rahulbakshee/cv/blob/master/GANs/Specialization/course2-notes.md)
 
 ### 3 Apply Generative Adversarial Networks (GANs)
 
@@ -58,4 +58,4 @@ In this course, you will:
 - Compare paired image-to-image translation to unpaired image-to-image translation and identify how their key difference necessitates different GAN architectures
 - Implement CycleGAN, an unpaired image-to-image translation model, to adapt horses to zebras (and vice versa) with two GANs in one
 
-> [my notes]()
+> [my course 3 notes](https://github.com/rahulbakshee/cv/blob/master/GANs/Specialization/course3-notes.md)

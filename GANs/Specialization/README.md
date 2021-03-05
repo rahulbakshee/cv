@@ -13,9 +13,17 @@ Break into the GANs space. Master cutting-edge GANs techniques through three han
 - Use GANs for data augmentation and privacy preservation, survey GANs applications, and examine and build Pix2Pix and CycleGAN for image translation
 
 
+The DeepLearning.AI Generative Adversarial Networks (GANs) Specialization provides an exciting introduction to image generation with GANs, charting a path from foundational concepts to advanced techniques through an easy-to-understand approach. It also covers social implications, including bias in ML and the ways to detect it, privacy preservation, and more.
+
+Build a comprehensive knowledge base and gain hands-on experience in GANs. Train your own model using PyTorch, use it to create images, and evaluate a variety of advanced GANs. 
+
+This Specialization provides an accessible pathway for all levels of learners looking to break into the GANs space or apply GANs to their own projects, even without prior familiarity with advanced math and machine learning research.
+
 
 
 ## There are 3 Courses in this Specialization
+
+I will be adding my notes only (and not the pyTorch code for graded exercises) so as to respect Coursera's Honor Code.  
 
 ### 1 Build Basic Generative Adversarial Networks (GANs)
 
@@ -26,11 +34,7 @@ In this course, you will:
 - Explore and implement multiple GAN architectures
 - Build conditional GANs capable of generating examples from determined categories
 
-The DeepLearning.AI Generative Adversarial Networks (GANs) Specialization provides an exciting introduction to image generation with GANs, charting a path from foundational concepts to advanced techniques through an easy-to-understand approach. It also covers social implications, including bias in ML and the ways to detect it, privacy preservation, and more.
-
-Build a comprehensive knowledge base and gain hands-on experience in GANs. Train your own model using PyTorch, use it to create images, and evaluate a variety of advanced GANs. 
-
-This Specialization provides an accessible pathway for all levels of learners looking to break into the GANs space or apply GANs to their own projects, even without prior familiarity with advanced math and machine learning research.
+> [my notes]
 
 
 ### 2 Build Better Generative Adversarial Networks (GANs)
@@ -42,12 +46,7 @@ In this course, you will:
 - Identify sources of bias and the ways to detect it in GANs
 - Learn and implement the techniques associated with the state-of-the-art StyleGANs
 
-The DeepLearning.AI Generative Adversarial Networks (GANs) Specialization provides an exciting introduction to image generation with GANs, charting a path from foundational concepts to advanced techniques through an easy-to-understand approach. It also covers social implications, including bias in ML and the ways to detect it, privacy preservation, and more.
-
-Build a comprehensive knowledge base and gain hands-on experience in GANs. Train your own model using PyTorch, use it to create images, and evaluate a variety of advanced GANs. 
-
-This Specialization provides an accessible pathway for all levels of learners looking to break into the GANs space or apply GANs to their own projects, even without prior familiarity with advanced math and machine learning research.
-
+> [my notes]
 
 ### 3 Apply Generative Adversarial Networks (GANs)
 
@@ -59,19 +58,4 @@ In this course, you will:
 - Compare paired image-to-image translation to unpaired image-to-image translation and identify how their key difference necessitates different GAN architectures
 - Implement CycleGAN, an unpaired image-to-image translation model, to adapt horses to zebras (and vice versa) with two GANs in one
 
-The DeepLearning.AI Generative Adversarial Networks (GANs) Specialization provides an exciting introduction to image generation with GANs, charting a path from foundational concepts to advanced techniques through an easy-to-understand approach. It also covers social implications, including bias in ML and the ways to detect it, privacy preservation, and more.
-
-Build a comprehensive knowledge base and gain hands-on experience in GANs. Train your own model using PyTorch, use it to create images, and evaluate a variety of advanced GANs. 
-
-This Specialization provides an accessible pathway for all levels of learners looking to break into the GANs space or apply GANs to their own projects, even without prior familiarity with advanced math and machine learning research.
-
-
-
-
-
-
-
-
-
-
-
+> [my notes]

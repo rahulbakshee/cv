@@ -30,3 +30,16 @@ so for the generator it first generates a few fake examples, again X hat, and th
 
 So as you alternate their training, only one model is trained at a time, while the other one is held constant. So in training GANs in this alternating fashion, it's important to keep in mind that both models should improve together and should be kept at similar skill levels from the beginning of training. And so the reasoning behind this is if you had a discriminator that is superior than the generator, like super, super good, you'll get predictions from it telling you that all the fake examples are 100% fake. Well, that's not useful for the generator, the generator doesn't know how to improve. Everything just looks super fake, there isn't anything telling it to know which direction to go in. Maybe to add something a little bit more realistic and how to learn over time. Meanwhile, if you had a superior generator that completely outskills the discriminator, you'll get predictions telling you that all the generated images are 100% real. So when training GANs in this alternating fashion, it's important to keep in mind that both models should improve together. And should be kept at similar skill levels from the beginning of training. And the reasoning behind this is largely because of the discriminator. The discriminator has a much easier task, it's just trying to figure out which ones are real, which ones are fake, as opposed to model the entire space of what a class could look like. What all cats could look like. And so the discriminator's job is much easier than the generator's. One common issue is having a superior discriminator, having this discriminator learn too quickly. And when it learns too quickly and it suddenly looks at a fake image and says, this is 100% fake, I know this is fake. But this 100% is not useful for the generator at all because it doesn't know which way to grow and learn. And so having output from the discriminator be much more informative, like 0.87 fake or 0.2 fake as opposed to just 100% fake. One, probability one fake, is much more informative to the generator in terms of updating its weights and having it learn to generate realistic images over time.
 
+
+
+
+## Transposed Convolutions and issues:
+Transposed convolutions are used as an upsampling method and they have learnable parameters unlike, upsampling layers. A problem arising from the use of transposed convolutions, however, is that the output has a checkerboard problem.The output image has a pattern resembling a checkerboard and this arises because when you upsample with a filter, some pixels are influenced much more heavily while the ones around it are not. 
+
+Using upsampling followed by convolution is becoming a more popular technique now to avoid this checkerboard problem.
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-# Generative Adversarial Networks (GANs) Specialization
+# Generative Adversarial Networks (GANs) Specialization - (work in progress)
 
 Break into the GANs space. Master cutting-edge GANs techniques through three hands-on courses!
 

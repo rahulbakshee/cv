@@ -1,6 +1,6 @@
 # Computer Vision
 
-Computer Vision, Deep Learning, OpenCV, Keras, Tensorflow, pyTorch
+Computer Vision, Deep Learning, Generative Adversarial Networks, GANs, OpenCV, Tensorflow, keras and pytorch
 
 ---
 

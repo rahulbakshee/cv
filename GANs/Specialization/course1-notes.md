@@ -96,3 +96,34 @@ The gradient penalty, which is another method, is a much softer way to enforce t
 
 ## Conditional Generation
 With conditional generation, you can get generated examples from the classes you decide while with unconditional generation, you get examples from a random class. As a result of that, with conditional generation, you actually have to train your GAN with labeled datasets and those labels are on the different classes you want while unconditional generation doesn't need any labels. You've seen this in previous weeks from the course, that you don't need any labels you just need a pile of real examples. You see how to modify your model for this conditional generation in the following lectures. What you should take away from this video is that conditional generation requires labeled datasets for training in order to learn how to produce examples from desired classes. Coming up, I'll show you how the labels from your dataset are fed to the generator and discriminator in order to train your GAN and produce examples from the desired class, like selecting the red soda from a vending machine.
+
+
+
+
+## 
+You've seen already with unconditional generation, the generator needs a noise vector to produce random examples. For conditional generation, you also need a vector to tell the generator from which class the generated examples should come from. Usually this is a one-hot vector, which means that there are zeros in every position except for one position corresponding to the class you want. Remember that the noise vector is random values as well, but it doesn't have to zero or one.
+
+To sum up in conditional generation, you pass the class information to both models. To the generator it's typically a one-hot vector concatenated with your noise vector to the discriminator when the desired output of the GANs are images, it's one-hot matrices representing the channels. The size of the class vector and the number of extra channels for the class information is just the same as the number of classes you'll be turning on.
+
+
+
+
+
+##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##

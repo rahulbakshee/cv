@@ -44,7 +44,7 @@ Join the #Computer_Vision_curriculum channel in our Slack channel to find one ht
 #### Reading Assignments
 - [x] http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf  Sec 3.1.1-2, 3.2 Sec 3.2.3, 4.2 3.3.2-4
 #### Project
-- [ ] Detect an object in an image via the OpenCV Library
+- [x] [Detect an object in an image via the OpenCV Library](https://github.com/rahulbakshee/cv/blob/master/Learn_Computer_Vision/Part%201:%20Low%20Level%20Vision%20(image%20%3E%20image)/Week%201%20(%20Basic%20Image%20Processing%20Techniques)/Project.ipynb)
 
 ### Week 2 (Motion and Optical Flow)
 - [ ] Motion Analysis

@@ -1,3 +1,3 @@
-this Repo consists of my learning and implementations about `Generative Adversarial Networks (GANs) `
+this (work in progress)repo consists of my learning and implementations about `Generative Adversarial Networks (GANs) `
 
 

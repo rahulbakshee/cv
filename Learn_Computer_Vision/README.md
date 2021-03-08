@@ -40,9 +40,9 @@ Join the #Computer_Vision_curriculum channel in our Slack channel to find one ht
 - [x] [Template Matching (find object in an image)](https://github.com/rahulbakshee/cv/blob/master/Learn_Computer_Vision/Part%201:%20Low%20Level%20Vision%20(image%20%3E%20image)/Week%201%20(%20Basic%20Image%20Processing%20Techniques)/08-%20Template%20Matching%20(find%20object%20in%20an%20image).ipynb)
 
 #### Video Lectures
-- [ ] https://www.youtube.com/watch?v=-nt80JUNwlw&list=PLjMXczUzEYcHvw5YYSU92WrY8IwhTuq7p&index=2 videos 1-5 
+- [x] https://www.youtube.com/watch?v=-nt80JUNwlw&list=PLjMXczUzEYcHvw5YYSU92WrY8IwhTuq7p&index=2 videos 1-5 
 #### Reading Assignments
-- [ ] http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf  Sec 3.1.1-2, 3.2 Sec 3.2.3, 4.2 3.3.2-4
+- [x] http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf  Sec 3.1.1-2, 3.2 Sec 3.2.3, 4.2 3.3.2-4
 #### Project
 - [ ] Detect an object in an image via the OpenCV Library
 

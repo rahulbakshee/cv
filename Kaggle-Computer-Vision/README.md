@@ -4,5 +4,4 @@
 
 https://www.kaggle.com/learn/computer-vision
 
-
-![alt text](http://url/to/img.png)
+![certificate](https://github.com/rahulbakshee/cv/blob/master/Kaggle-Computer-Vision/Rahul%20Bakshee%20-%20Computer%20Vision%20_certificate.png)

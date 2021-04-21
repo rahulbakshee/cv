@@ -48,7 +48,7 @@ Join the #Computer_Vision_curriculum channel in our Slack channel to find one ht
 
 ### Week 2 (Motion and Optical Flow)
 - [x] [Motion Analysis](https://github.com/rahulbakshee/cv/blob/master/Learn_Computer_Vision/Part%201:%20Low%20Level%20Vision%20(image%20%3E%20image)/Week%202%20(Motion%20and%20Optical%20Flow)/01-Motion%20Analysis.ipynb)
-- [ ] Optical Flow
+- [x] [Optical Flow](https://github.com/rahulbakshee/cv/blob/master/Learn_Computer_Vision/Part%201:%20Low%20Level%20Vision%20(image%20%3E%20image)/Week%202%20(Motion%20and%20Optical%20Flow)/02-Optical%20Flow.ipynb)
 #### Video Lectures
 - [ ] https://www.udacity.com/course/introduction-to-computer-vision--ud810 Udacity lesson 6
 - [ ] https://www.youtube.com/watch?v=-nt80JUNwlw&list=PLjMXczUzEYcHvw5YYSU92WrY8IwhTuq7p&index=2 video 8

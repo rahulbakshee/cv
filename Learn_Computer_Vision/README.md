@@ -47,7 +47,7 @@ Join the #Computer_Vision_curriculum channel in our Slack channel to find one ht
 - [x] [Detect an object in an image via the OpenCV Library](https://github.com/rahulbakshee/cv/blob/master/Learn_Computer_Vision/Part%201:%20Low%20Level%20Vision%20(image%20%3E%20image)/Week%201%20(%20Basic%20Image%20Processing%20Techniques)/Project.ipynb)
 
 ### Week 2 (Motion and Optical Flow)
-- [ ] Motion Analysis
+- [x] [Motion Analysis](https://github.com/rahulbakshee/cv/blob/master/Learn_Computer_Vision/Part%201:%20Low%20Level%20Vision%20(image%20%3E%20image)/Week%202%20(Motion%20and%20Optical%20Flow)/01-Motion%20Analysis.ipynb)
 - [ ] Optical Flow
 #### Video Lectures
 - [ ] https://www.udacity.com/course/introduction-to-computer-vision--ud810 Udacity lesson 6

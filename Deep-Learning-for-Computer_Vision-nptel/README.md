@@ -1,4 +1,4 @@
-# Deep Learning for Computer Vision 
+# nptel Deep Learning for Computer Vision 
 
 ## [nptel / Swayam ](https://onlinecourses.nptel.ac.in/noc21_cs93/course)
 

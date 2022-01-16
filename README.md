@@ -8,4 +8,4 @@ Computer Vision, Deep Learning, Generative Adversarial Networks, GANs, OpenCV, T
 - [Learn_Computer_Vision course](https://github.com/rahulbakshee/cv/tree/master/Learn_Computer_Vision)
 - [Edge Detection in computer Vision](https://github.com/rahulbakshee/cv/blob/master/Edge_detection_in_computer_vision.ipynb)
 - [Haar feature-based cascade classifiers in openCV](https://github.com/rahulbakshee/cv/blob/master/Haar%20feature-based%20cascade%20classifiers%20in%20openCV.ipynb)
-- []()
+- [Quick ways of data loading in TensorFlow](https://github.com/rahulbakshee/cv/blob/master/tf_load_data.ipynb)

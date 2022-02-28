@@ -1,12 +1,12 @@
 
 # Real-Time In-Store Sentiment Analysis [RISA]
 
-In-Store analytics is very important when it comes to understanding 
-- how customers feel when they are inside the store.
-- how they feel when talking to a customer representative(rep).
-- their overall shopping experience.
+In-Store analytics is very important when it comes to understanding ->
 - efficiently managing the product placements.
 - optimizing store operations.
+- how customers feel when they are inside the store.
+- how customers feel when talking to a customer representative(rep).
+- customers' overall shopping experience.
 - personalizing marketing content and recommending relevant producsts
 - etc.
 

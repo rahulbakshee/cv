@@ -36,7 +36,10 @@ For Facial Expression Recognition, we can use any classifier:
 
 
 
-reference: https://www.kaggle.com/timesler/comparison-of-face-detection-packages
+reference: 
+https://www.kaggle.com/timesler/comparison-of-face-detection-packages
+
+https://towardsdatascience.com/face-detection-recognition-and-emotion-detection-in-8-lines-of-code-b2ce32d4d5de
 
 ### Conclusion
 

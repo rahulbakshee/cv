@@ -41,6 +41,8 @@ https://www.kaggle.com/timesler/comparison-of-face-detection-packages
 
 https://towardsdatascience.com/face-detection-recognition-and-emotion-detection-in-8-lines-of-code-b2ce32d4d5de
 
+https://ieeexplore.ieee.org/document/9091188
+
 ### Conclusion
 
 

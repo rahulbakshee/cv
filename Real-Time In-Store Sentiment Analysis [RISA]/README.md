@@ -20,15 +20,20 @@ In this project we will build a Real-Time In-Store Sentiment Analysis system(RIS
 - Step 1 - Collect facial data of customers from images/videos using camera feed/Raspberry Pi etc.
 - Step 2 - The facial crops are then classified as one of the categories (Happy, Sad, Neutral etc.) for each person.
 
+<img src="RISA-diag.png" style="width:600px;height:600;">
+<caption><center> </center></caption>
+<caption><center> <u><b>Figure 1</u></b>: This figure shows High level System Design of Real-Time In-Store Sentiment Analysis [RISA]<br> </center></caption>
+
+
 
 ### Technical Solution
 We have prototyped it as a two step process a **Face Detection** followed by **Facial Expression Recognition**. 
 
 To achieve the Face Detection , there are many methods available and each has pros and cons in terms of accuracy, latency etc.:
-- [HAAR Cascade Classifier](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html)
+- [HAAR Cascade Classifier from OpenCV](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html)
 - MTCNN (Facenet-pytorch)
 - [DLib(HOG/CNN)](http://dlib.net/) / [face_recognition](https://github.com/ageitgey/face_recognition)
-
+- etc.
 
 For Facial Expression Recognition, we can use any classifier:
 - Pretrained classifiers
@@ -49,26 +54,7 @@ There are various datasets avilable for use:
 <caption><center> <u><b>Figure 2</u></b>: This figure shows real-time distribution of emotions per customer present in store<br> </center></caption>
 
 
-
-
-
-/////////////////diagram
-
-
-
-
-
-reference: 
-https://www.kaggle.com/timesler/comparison-of-face-detection-packages
-
-https://towardsdatascience.com/face-detection-recognition-and-emotion-detection-in-8-lines-of-code-b2ce32d4d5de
-
-https://ieeexplore.ieee.org/document/9091188
-
 ### Conclusion
 
-
-Prototyped Facial Expression Recognition system for in-store customer analytics.
-
-Achieved 89% accuracy using OpenCV for detecting facial bounding boxes and TensorFlow for multi-class classification of expressions trained on FER-2013 dataset.
+Using this product, one can easily understand the overall emotion of in-store customers in real-time and work on optimizing the store performance and customer engagements.
 

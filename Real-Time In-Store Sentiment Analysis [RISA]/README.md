@@ -55,6 +55,5 @@ There are various datasets avilable for use:
 
 
 ### Conclusion
-
 Using this product, one can easily understand the overall emotion of in-store customers in real-time and work on optimizing the store performance and customer engagements.
 

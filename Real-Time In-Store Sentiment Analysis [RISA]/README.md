@@ -22,15 +22,20 @@ In this project we will build a Real-Time In-Store Sentiment Analysis system(RIS
 
 
 ### Technical Solution
-
 We have prototyped it as a two step process a **Face Detection** followed by **Facial Expression Recognition**. 
-To achieve the Face Detection we have compared below methods:
+
+To achieve the Face Detection , there are many methods available and each has pros and cons in terms of accuracy, latency etc.:
 - HAAR Cascade Classifier
 - MTCNN (Facenet-pytorch)
 - DLib
+
+
 For Facial Expression Recognition, we can use any classifier:
 - Pretrained classifiers
 - Train from scratch
+
+Whatever we choose, we must have low latency inference as we would like to generate real-time insights. 
+
 
 /////////////////diagram
 

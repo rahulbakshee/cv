@@ -25,19 +25,36 @@ In this project we will build a Real-Time In-Store Sentiment Analysis system(RIS
 We have prototyped it as a two step process a **Face Detection** followed by **Facial Expression Recognition**. 
 
 To achieve the Face Detection , there are many methods available and each has pros and cons in terms of accuracy, latency etc.:
-- HAAR Cascade Classifier
+- [HAAR Cascade Classifier](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html)
 - MTCNN (Facenet-pytorch)
-- DLib
+- [DLib(HOG/CNN)](http://dlib.net/) / [face_recognition](https://github.com/ageitgey/face_recognition)
 
 
 For Facial Expression Recognition, we can use any classifier:
 - Pretrained classifiers
 - Train from scratch
 
+
 Whatever we choose, we must have low latency inference as we would like to generate real-time insights. 
 
 
+There are various datasets avilable for use:
+- FER-2013
+- FER+ 
+- CK+ (extended Cohn-Kanade).
+- etc.
+
+<img src="all-emotions.png" style="width:600px;height:600;">
+<caption><center> </center></caption>
+<caption><center> <u><b>Figure 2</u></b>: This figure shows real-time distribution of emotions per customer present in store<br> </center></caption>
+
+
+
+
+
 /////////////////diagram
+
+
 
 
 

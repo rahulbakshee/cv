@@ -27,7 +27,7 @@ In this project we will build a Real-Time In-Store Sentiment Analysis system(RIS
 
 
 ### Technical Solution
-We have prototyped it as a two step process a **Face Detection** followed by **Facial Expression Recognition**. 
+We have prototyped it as a two step process a **Face Detection** followed by **Facial Expression Recognition**. `The main thing to notice here is we are never going to store customer's information like facial crop etc. to keep user's identity confidential and maintain privacy. We only store the overall aggregated emotion insights without any personal identity of the user.`
 
 To achieve the Face Detection , there are many methods available and each has pros and cons in terms of accuracy, latency etc.:
 - [HAAR Cascade Classifier from OpenCV](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html)

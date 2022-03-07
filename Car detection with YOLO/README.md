@@ -54,7 +54,7 @@ from yad2k.utils.utils import draw_boxes, get_colors_for_classes, scale_boxes, r
 You are working on a self-driving car. Go you! As a critical component of this project, you'd like to first build a car detection system. To collect data, you've mounted a camera to the hood (meaning the front) of the car, which takes pictures of the road ahead every few seconds as you drive around. 
 
 <center>
-<video width="400" height="200" src="nb_images/road_video_compressed2.mp4" type="video/mp4" controls>
+<video width="400" height="200" src="road_video_compressed2.mp4" type="video/mp4" controls>
 </video>
 </center>
 
@@ -63,7 +63,7 @@ You are working on a self-driving car. Go you! As a critical component of this p
 
 You've gathered all these images into a folder and labelled them by drawing bounding boxes around every car you found. Here's an example of what your bounding boxes look like:
 
-<img src="nb_images/box_label.png" style="width:500px;height:250;">
+<img src="box_label.png" style="width:500px;height:250;">
 <caption><center> <u><b>Figure 1</u></b>: Definition of a box<br> </center></caption>
 
 If there are 80 classes you want the object detector to recognize, you can represent the class label $c$ either as an integer from 1 to 80, or as an 80-dimensional vector (with 80 numbers) one component of which is 1, and the rest of which are 0. The video lectures used the latter representation; in this notebook, you'll use both representations, depending on which is more convenient for a particular step.  
@@ -91,7 +91,7 @@ In this exercise, you'll discover how YOLO ("You Only Look Once") performs objec
 #### Encoding
 Let's look in greater detail at what this encoding represents. 
 
-<img src="nb_images/architecture.png" style="width:700px;height:400;">
+<img src="architecture.png" style="width:700px;height:400;">
 <caption><center> <u><b> Figure 2 </u></b>: Encoding architecture for YOLO<br> </center></caption>
 
 If the center/midpoint of an object falls into a grid cell, that grid cell is responsible for detecting that object.
@@ -100,7 +100,7 @@ Since you're using 5 anchor boxes, each of the 19 x19 cells thus encodes informa
 
 For simplicity, you'll flatten the last two dimensions of the shape (19, 19, 5, 85) encoding, so the output of the Deep CNN is (19, 19, 425).
 
-<img src="nb_images/flatten.png" style="width:700px;height:400;">
+<img src="flatten.png" style="width:700px;height:400;">
 <caption><center> <u><b> Figure 3 </u></b>: Flattening the last two last dimensions<br> </center></caption>
 
 #### Class score
@@ -108,7 +108,7 @@ For simplicity, you'll flatten the last two dimensions of the shape (19, 19, 5, 
 Now, for each box (of each cell) you'll compute the following element-wise product and extract a probability that the box contains a certain class.  
 The class score is $score_{c,i} = p_{c} \times c_{i}$: the probability that there is an object $p_{c}$ times the probability that the object is a certain class $c_{i}$.
 
-<img src="nb_images/probability_extraction.png" style="width:700px;height:400;">
+<img src="probability_extraction.png" style="width:700px;height:400;">
 <caption><center> <u><b>Figure 4</u></b>: Find the class detected by each box<br> </center></caption>
 
 ##### Example of figure 4
@@ -125,7 +125,7 @@ Here's one way to visualize what YOLO is predicting on an image:
 
 Doing this results in this picture: 
 
-<img src="nb_images/proba_map.png" style="width:300px;height:300;">
+<img src="proba_map.png" style="width:300px;height:300;">
 <caption><center> <u><b>Figure 5</u></b>: Each one of the 19x19 grid cells is colored according to which class has the largest predicted probability in that cell.<br> </center></caption>
 
 Note that this visualization isn't a core part of the YOLO algorithm itself for making predictions; it's just a nice way of visualizing an intermediate result of the algorithm. 
@@ -133,7 +133,7 @@ Note that this visualization isn't a core part of the YOLO algorithm itself for 
 #### Visualizing bounding boxes
 Another way to visualize YOLO's output is to plot the bounding boxes that it outputs. Doing that results in a visualization like this:  
 
-<img src="nb_images/anchor_map.png" style="width:200px;height:200;">
+<img src="anchor_map.png" style="width:200px;height:200;">
 <caption><center> <u><b>Figure 6</u></b>: Each cell gives you 5 boxes. In total, the model predicts: 19x19x5 = 1805 boxes just by looking once at the image (one forward pass through the network)! Different colors denote different classes. <br> </center></caption>
 
 #### Non-Max suppression
@@ -330,12 +330,12 @@ print("\033[92m All tests passed!")
 
 Even after filtering by thresholding over the class scores, you still end up with a lot of overlapping boxes. A second filter for selecting the right boxes is called non-maximum suppression (NMS). 
 
-<img src="nb_images/non-max-suppression.png" style="width:500px;height:400;">
+<img src="non-max-suppression.png" style="width:500px;height:400;">
 <caption><center> <u> <b>Figure 7</b> </u>: In this example, the model has predicted 3 cars, but it's actually 3 predictions of the same car. Running non-max suppression (NMS) will select only the most accurate (highest probability) of the 3 boxes. <br> </center></caption>
 
 
 Non-max suppression uses the very important function called **"Intersection over Union"**, or IoU.
-<img src="nb_images/iou.png" style="width:500px;height:400;">
+<img src="iou.png" style="width:500px;height:400;">
 <caption><center> <u> <b>Figure 8</b> </u>: Definition of "Intersection over Union". <br> </center></caption>
 
 <a name='ex-2'></a>
@@ -1003,7 +1003,7 @@ The model you've just run is actually able to detect 80 different classes listed
 If you were to run your session in a for loop over all your images. Here's what you would get:
 
 <center>
-<video width="400" height="200" src="nb_images/pred_video_compressed2.mp4" type="video/mp4" controls>
+<video width="400" height="200" src="pred_video_compressed2.mp4" type="video/mp4" controls>
 </video>
 </center>
 

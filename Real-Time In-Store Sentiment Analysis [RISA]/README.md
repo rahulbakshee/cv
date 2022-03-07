@@ -9,7 +9,7 @@ In-Store analytics is very important when it comes to ->
 - how customers feel when talking to a customer representative(rep).
 - customers' overall shopping experience.
 - personalizing marketing content 
-- recommending relevant producsts
+- recommending relevant products
 - etc.
 
 Companies/Retailers have been using image/video analysis of in-store customers' interactions to get insights for the above tasks. But, most systems are batch-mode and not real-time. The primary use of real-time is to know instantly how the customer feels and change your course of action based on that. 

@@ -54,7 +54,7 @@ Join the #Computer_Vision_curriculum channel in our Slack channel to find one ht
 - [ ] https://www.youtube.com/watch?v=-nt80JUNwlw&list=PLjMXczUzEYcHvw5YYSU92WrY8IwhTuq7p&index=2 video 8
 - [ ] https://www.youtube.com/watch?v=wC8hXuHsHAQ&list=PLvqB6_mDBCdlnT84LK_NvbOqcXLlOTR8j&index=6&t=0s 
 #### Reading Assignments
-- [ ] http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf   Sec 10.5 Sec 8.4 (up until 8.4.1)
+- [X] http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf   Sec 10.5 Sec 8.4 (up until 8.4.1)
 #### Project
 - [ ] Track a moving object in a video frame with OpenCV
 
